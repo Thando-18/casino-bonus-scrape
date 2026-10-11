@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Casino Bonus Scraper — Screening Task
 
 A small Python scraper and responsive web page that displays three casino bonus records from one public comparison page. The script extracts the source text itself and asks an LLM to normalize the fields; it does not manually seed the offers.
@@ -95,3 +96,6 @@ Each record contains `casino_name`, `welcome_bonus`, `wagering_requirement` (num
 - An API key and API usage are required for LLM normalization.
 - For production, use a scheduler, retries with backoff, structured logs, alerts, schema validation, and human review for ambiguous terms. Keep historical snapshots and source timestamps to audit changes.
 - This is an assessment prototype, not gambling advice. Offers change; verify current terms directly with operators. 18+ only; gamble responsibly.
+=======
+# casino-bonus-scrape
+>>>>>>> cf909d201cbf6897c44ea457ad5b01c4f6a9278e
